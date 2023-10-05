@@ -17,4 +17,4 @@ The stack for this project consists of:
     - setup and install mysql service on the VM designated as the database server
     - clone java application code, and migrate the database schema
     - setup and install memcached service on the VM designated as the cache server
-    - setup and install rabbitMQ service on the M designated as the message broker server
+    - setup and install rabbitMQ service on the VM designated as the message broker server

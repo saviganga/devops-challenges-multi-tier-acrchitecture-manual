@@ -14,7 +14,10 @@ The stack for this project consists of:
 
 # STEPS
 1. setup the backend infrastructure - database, cache, message broker
-    - setup and install mysql service on the VM designated as the database server
+    - install and setup mysql service on the VM designated as the database server
     - clone java application code, and migrate the database schema
-    - setup and install memcached service on the VM designated as the cache server
-    - setup and install rabbitMQ service on the VM designated as the message broker server
+    - install and setup memcached service on the VM designated as the cache server
+    - install and setup rabbitMQ service on the VM designated as the message broker server
+2. setup application server - tomcat
+    - install and setup apache tomcat server on the VM designated as the application server
+    - connect the application code to the backend servers and application server
